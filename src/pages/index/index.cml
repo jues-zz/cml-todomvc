@@ -54,7 +54,7 @@ const {mapGetters, mapMutations, mapActions, mapState} = store;
 import  getterTypes from '../../store/getter-types.js';
 import  mutationTypes from '../../store/mutation-types.js';
 import  actionTypes from '../../store/action-types.js';
-import cml from 'cml-tt-api';
+import cml from 'chameleon-api';
 class Index  {
   data = {
     title: 'todos',

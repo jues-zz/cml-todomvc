@@ -8,18 +8,18 @@ cml.config.merge({
   templateLang: 'cml',
   templateType: 'html',
   // builtinNpmName: 'cml-tt-ui-builtin',
-  extPlatform: {
-    tt: 'cml-tt-plugin',
-  },
-  babelPath: [
-    path.join(__dirname,'node_modules/cml-tt-ui-builtin'),
-    path.join(__dirname,'node_modules/cml-tt-runtime'),
-    path.join(__dirname,'node_modules/cml-tt-api'),
-    path.join(__dirname,'node_modules/cml-tt-ui'),
-    path.join(__dirname,'node_modules/cml-tt-store'),
-    path.join(__dirname,'node_modules/cml-tt-mixins'),
-    path.join(__dirname,'node_modules/mobx'),
-  ],
+  // extPlatform: {
+  //   tt: 'cml-tt-plugin',
+  // },
+  // babelPath: [
+  //   path.join(__dirname,'node_modules/cml-tt-ui-builtin'),
+  //   path.join(__dirname,'node_modules/cml-tt-runtime'),
+  //   path.join(__dirname,'node_modules/cml-tt-api'),
+  //   path.join(__dirname,'node_modules/cml-tt-ui'),
+  //   path.join(__dirname,'node_modules/cml-tt-store'),
+  //   path.join(__dirname,'node_modules/cml-tt-mixins'),
+  //   path.join(__dirname,'node_modules/mobx'),
+  // ],
   baseStyle:{
     wx: true,
     web: true,
